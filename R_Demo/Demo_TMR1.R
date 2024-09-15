@@ -76,7 +76,7 @@ saminfo[,16:17]   <-  as.data.frame(scores(NMDS, display = "sites"))
 stress            <-  data.frame(stress = NMDS$stress)
 stress
 
-saminfo[,16:17]   <-  data.frame(NMDS$points)
+#saminfo[,16:17]   <-  data.frame(NMDS$points)
 
 # PERMANOVA (Permutational multivariate analysis of variance)
 
