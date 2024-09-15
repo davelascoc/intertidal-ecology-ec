@@ -27,8 +27,7 @@ library(rstatix)
 # DATA MANAGEMENT
 
 ##import dataset from my files
-i           <-  read_excel("Datos/Datos Analizados/Master Database VFinal.xlsx", 
-                               sheet = "Sessile")
+i           <-  read_excel("Sessiles.xlsx")
 head(i)
 
 
